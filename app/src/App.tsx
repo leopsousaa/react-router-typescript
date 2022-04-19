@@ -9,7 +9,7 @@ import ReportPage from './pages/report/Report';
 
 export interface IAppRoutes {}
 
-const App: React.FC<IAppRoutes> = (props) => {
+const App: React.FC<IAppRoutes> = () => {
     return (
         <BrowserRouter>
             <Routes>
